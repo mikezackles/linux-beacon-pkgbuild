@@ -1,3 +1,5 @@
+See the releases page for [prebuilt packages](https://github.com/mikezackles/linux-beacon-pkgbuild/releases). USE AT YOUR OWN RISK.
+
 This is the vanilla Arch package with a patch that prevents the iwlwifi driver from becoming unusable due to a [beacon timeout firmware issue](https://bugzilla.kernel.org/show_bug.cgi?id=203709).
 
 To use this, use the following kernel module parameter (e.g., in /etc/modprobe.d/wifi-fix.conf):
